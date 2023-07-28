@@ -14,7 +14,6 @@ document.body.append(container);
 container.appendChild(heading);
 container.appendChild(row);
 
-//creating an async function for fetching rest countries API
 const displayDamDetails = async ()=>{
     const response = await fetch("https://api.data.gov.in/resource/7b3ed3e9-841f-4444-ab3c-e760a08b53b3?api-key=579b464db66ec23bdd0000017985a71bffbf422571a53b710f09d003&format=json");
     const data = await response.json();
