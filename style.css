@@ -15,6 +15,10 @@
   margin-top: 20px;
 }
 
+#description{
+text-align: center;
+}
+
 .page-link {
   cursor: pointer;
   color: #007bff;
