@@ -1,37 +1,38 @@
-.row{
-    display: -webkit-box;
-    display: flexbox;
-    flex-wrap: wrap;
+/* styles.css */
+
+/* Center the container */
+.container {
+  margin-top: 50px;
 }
 
-img{
-    height:120px;
-    width:350px;
-} 
-
-body{
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-  background-color: #00BFFF;
+/* Style the table */
+.table {
+  margin-bottom: 20px;
 }
 
-.card{
-  margin-top: 30px;
-  margin-left: 30px;
-  height:300px !important;
+/* Style the pagination links */
+#pagination {
+  margin-top: 20px;
 }
 
-.card-body{
-  background-color: #F0F8FF;
+.page-link {
+  cursor: pointer;
+  color: #007bff;
 }
 
-.card-text{
-  padding: 5px;
+.page-link:hover {
+  text-decoration: none;
 }
 
-#title{
-  color: white;
+.page-link.active {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+  .table {
+    font-size: 14px;
+  }
 }
